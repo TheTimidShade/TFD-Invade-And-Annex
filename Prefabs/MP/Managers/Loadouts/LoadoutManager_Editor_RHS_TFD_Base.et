@@ -1,0 +1,47 @@
+SCR_LoadoutManager : "{B54D08AEA74A5354}Prefabs/MP/Managers/Loadouts/LoadoutManager_Editor.et" {
+ ID "56B2B47708C4F23A"
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{690656EFD805BDA1}" {
+   m_sLoadoutName "USMC Rifleman"
+   m_sLoadoutResource "{CB4B1645B748D5D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Rifleman.et"
+   m_sLoadoutImage "{344FE3D1529D1192}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Rifleman.edds"
+   m_sAffiliatedFaction "RHS_USAF"
+  }
+  SCR_FactionPlayerLoadout "{690656EE2D721F4A}" {
+   m_sLoadoutName "USMC Autorifleman"
+   m_sLoadoutResource "{66876AB6DB22430B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_AR.et"
+   m_sLoadoutImage "{4FB6C503AD0D21C6}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_AR.edds"
+   m_sAffiliatedFaction "RHS_USAF"
+  }
+  SCR_FactionPlayerLoadout "{690656EE4001A748}" {
+   m_sLoadoutName "USMC Grenadier"
+   m_sLoadoutResource "{6B5214972C952A21}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_GL.et"
+   m_sLoadoutImage "{958CBED5118FC788}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_GL.edds"
+   m_sAffiliatedFaction "RHS_USAF"
+  }
+  SCR_FactionPlayerLoadout "{690656EE4EF85296}" {
+   m_sLoadoutName "USMC Rifleman (AT)"
+   m_sLoadoutResource "{AE2E93B28352053F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_LAT.et"
+   m_sLoadoutImage "{A04FB52A0DD6A846}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_LAT.edds"
+   m_sAffiliatedFaction "RHS_USAF"
+  }
+  SCR_FactionPlayerLoadout "{690656EE4FE7B597}" {
+   m_sLoadoutName "USMC Medic"
+   m_sLoadoutResource "{0C1639553F575AD3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Medic.et"
+   m_sLoadoutImage "{AB13B0871DC7F497}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Medic.edds"
+   m_sAffiliatedFaction "RHS_USAF"
+  }
+  SCR_FactionPlayerLoadout "{690656EE4CBB52BC}" {
+   m_sLoadoutName "USMC Squad Leader"
+   m_sLoadoutResource "{0B0F9BA9E9A6E118}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_SL.et"
+   m_sLoadoutImage "{EA337D8E794B95AC}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_SL.edds"
+   m_sAffiliatedFaction "RHS_USAF"
+  }
+  SCR_FactionPlayerLoadout "{690656EE4B5CCBA2}" {
+   m_sLoadoutName "USMC RTO"
+   m_sLoadoutResource "{9A38B3DFD014403C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_RTO.et"
+   m_sLoadoutImage "{8E53B2ACCC663D10}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_RTO.edds"
+   m_sAffiliatedFaction "RHS_USAF"
+  }
+ }
+}

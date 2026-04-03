@@ -3,6 +3,18 @@ SCR_FactionManager : "{9C91E5C193F08BAC}Prefabs/MP/Managers/Factions/FactionMana
  Factions {
   SCR_Faction "{5CC8DE37E1FF0F7A}" {
    m_bIsPlayable 1
+   m_aGroupRolePresetConfigs {
+    SCR_GroupRolePresetConfig "{69062C110B04CF12}" {
+     m_aLoadoutResources {
+      "{CB4B1645B748D5D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Rifleman.et" "{66876AB6DB22430B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_AR.et" "{6B5214972C952A21}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_GL.et" "{AE2E93B28352053F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_LAT.et" "{0C1639553F575AD3}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Medic.et" "{0B0F9BA9E9A6E118}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_SL.et" "{9A38B3DFD014403C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_RTO.et"
+     }
+    }
+   }
+   m_aPredefinedGroups {
+    SCR_GroupPreset "{69067559F1473B7E}" {
+     m_eGroupRole ASSAULT
+    }
+   }
   }
  }
 }
