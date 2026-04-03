@@ -1,0 +1,53 @@
+IA_AreaMarker : "{4CE72B528FB4853C}Prefabs/IA_AreaMarkers/RadioTower.et" {
+ coords 1422.301 62.653 6160.479
+ angleY 43.723
+ m_areaGroup 5
+ m_fZoneRadius 30
+ m_areaName "Lamentin Radio Tower"
+ m_radius 30
+}
+$grp IA_AreaMarker : "{61B9AD559D2CE12D}Components/Area_Marker.et" {
+ Lamentin1 {
+  coords 1303.417 38.183 6019.414
+  m_areaGroup 5
+  m_fZoneRadius 50
+  m_areaName "Lamentin"
+  m_radius 125
+ }
+ Lamentin3 {
+  coords 1046.704 2.739 6021.672
+  m_areaGroup 5
+  m_fZoneRadius 35
+  m_areaName "Lamentin Docks Entrance"
+  m_areaType "SmallMilitary"
+  m_radius 35
+ }
+ Lamentin4 {
+  coords 895.6 2.75 6069.214
+  m_areaGroup 5
+  m_fZoneRadius 35
+  m_areaName "Lamentin South Docks"
+  m_areaType "SmallMilitary"
+  m_radius 35
+ }
+}
+IA_AreaMarker Lamentin2 : "{B3CEBC9A9C5872A6}Prefabs/IA_AreaMarkers/IA_Docks.et" {
+ coords 1081.917 2.813 6142.535
+ m_areaGroup 5
+ m_fZoneRadius 45
+ m_areaName "Lamentin North Docks"
+ m_areaType "Docks"
+ m_radius 45
+}
+$grp IA_AreaMarker : "{B66EE4ECE753F16C}Prefabs/IA_AreaMarkers/IA_DefendObjective.et" {
+ {
+  coords 1276.179 37.401 6015.103
+  m_areaGroup 5
+  m_areaName "Lamentin City Center"
+ }
+ {
+  coords 1063.104 2.719 6030.031
+  m_areaGroup 5
+  m_areaName "Lamentin Docks"
+ }
+}

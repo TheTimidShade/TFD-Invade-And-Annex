@@ -1,0 +1,265 @@
+$grp GenericEntity : "{024EDCF56DD2165E}Prefabs/IA_VehicleSpawns/IA_HQTruck.et" {
+ Truck1 {
+  coords 4900.161 28.594 11861.914
+  angleX 0.299
+  angleY 178.782
+  angleZ 1.058
+ }
+ Truck2 {
+  coords 4905.292 28.594 11861.916
+  angleX 0.299
+  angleY 178.782
+  angleZ 1.058
+ }
+}
+GenericEntity : "{1693A2CCA4BFD922}Prefabs/Props/Military/Compositions/US/FuelService_US_Large.et" {
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Enabled 0
+  }
+  SCR_FuelSupportStationComponent "{5EA8A5EFA3C1923E}" {
+   m_fRange 40
+  }
+  Hierarchy "{5E6A938710B7AE59}" {
+   Enabled 1
+  }
+ }
+ coords 4838 28.5 11724
+ angleY 90
+ {
+  GenericEntity {
+   ID "5E6A90B022FE573D"
+   components {
+    SCR_SupportStationAreaMeshComponent "{5E6A90B0246F70C8}" {
+     m_fRadius 40
+    }
+   }
+   coords 0 0 6.5
+  }
+ }
+}
+$grp GenericEntity : "{2A365FE7758AAB49}Prefabs/IA_VehicleSpawns/IA_HQAPC.et" {
+ APC3 {
+  coords 4899.604 28.594 11842.893
+  angleX -0.834
+  angleY 179.935
+  angleZ 0.413
+ }
+ APC2 {
+  coords 4906.729 28.594 11842.619
+  angleX 0.036
+  angleY 179.938
+  angleZ 0.202
+ }
+}
+GenericEntity : "{45C675ED3CFBBEC5}Prefabs/Props/Military/Compositions/US/ArsenalBox_US.et" {
+ components {
+  SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+   m_eArsenalSaveType NO_RESTRICTIONS
+  }
+ }
+ coords 4931.652 28.775 11778.852
+ angleY 177.531
+}
+$grp GenericEntity : "{6CD1DF9BB4591E8A}Prefabs/IA_VehicleSpawns/IA_HQArmor.et" {
+ Armor2 {
+  coords 4906.8 28.594 11831.352
+  angleX 0.036
+  angleY 179.938
+  angleZ 0.202
+ }
+ Armor1 {
+  coords 4899.713 28.594 11831.768
+  angleX 0.036
+  angleY 179.938
+  angleZ 0.202
+ }
+}
+GenericEntity : "{7BDAD0F4A6195C01}PrefabsEditable/SupportStationSystems/E_SupportStationSystem_Repair_Helipad_BoundingBox.et" {
+ components {
+  SCR_RepairSupportStationComponent "{5E1CF31185E317FE}" {
+   m_fRange 40
+  }
+  SCR_SupportStationAreaMeshComponent "{5B2AD5B869A9C26D}" {
+   m_fRadius 40
+  }
+  SCR_VehicleWeaponSupportStationComponent "{62E4B164B6B0244C}" {
+   m_fRange 40
+  }
+ }
+ coords 4841.448 28.5 11724.195
+}
+GameEntity : "{82A575F7D83C3231}Prefabs/Props/Military/Compositions/US/HeliWeapons_ArsenalBox_HeliPad_US.et" {
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Enabled 0
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Enabled 0
+  }
+  SCR_MapDescriptorComponent "{655A1852470352E4}" {
+   DisplayName "Vehicle Full Service"
+   MainType "Name Town"
+  }
+  SCR_VehicleWeaponSupportStationComponent "{61B2A377EAFB909E}" {
+   m_fRange 40
+  }
+  Hierarchy "{6324B24E57DB4980}" {
+   Enabled 1
+  }
+ }
+ coords 4841.917 28.5 11724.812
+ angleY 7.568
+ {
+  GameEntity {
+   ID "631B64AD64E321F5"
+   components {
+    MeshObject "{5872F0EB7FA40561}" {
+     Enabled 0
+    }
+    RigidBody "{5872F0EB7DFB5A9D}" {
+     Enabled 0
+    }
+    Hierarchy "{6324C08A97C978E4}" {
+    }
+   }
+   coords 0.011 0 0.618
+   angleY 114.512
+  }
+  GameEntity {
+   ID "631B64AA897A2786"
+   components {
+    MeshObject "{5872F0EB7FA40561}" {
+     Enabled 0
+    }
+    RigidBody "{5872F0EB7DFB5A9D}" {
+     Enabled 0
+    }
+   }
+   coords -0.129 0 -1.259
+   angleX 0
+   angleY 180
+   angleZ 0
+  }
+  GenericEntity {
+   ID "61B2A377DDDEF07E"
+   components {
+    SCR_SupportStationAreaMeshComponent "{5E6A90B0246F70C8}" {
+     m_fRadius 40
+    }
+   }
+   coords -0.935 0 -2.901
+  }
+ }
+}
+GenericEntity : "{A13F6A7F82DF031B}Prefabs/Compositions/Slotted/SlotFlatLarge/Helipad_L_US_01.et" {
+ coords 4815.712 28.214 11787.743
+ angleX -0.811
+ angleY 2.67
+ angleZ -1.829
+}
+GenericEntity : "{AD59EDEAA26CE792}Prefabs/Props/Military/Compositions/USSR/ArsenalBox_USSR.et" {
+ components {
+  SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+   m_eArsenalSaveType NO_RESTRICTIONS
+  }
+ }
+ coords 4929.441 28.775 11778.766
+ angleY 172.346
+}
+GenericEntity Medical2 : "{B21E0EFD1E70E2F4}Prefabs/IA_VehicleSpawns/IA_HQMedical.et" {
+ coords 4892.531 28.594 11805.324
+ angleX 0.258
+ angleY -178.995
+ angleZ 1.069
+}
+GenericEntity Truck3 : "{B5044C2D33FA8D61}Prefabs/IA_VehicleSpawns/IA_Construction_Truck.et" {
+ coords 4903.414 28.594 11874.532
+ angleX 0.299
+ angleY 178.782
+ angleZ 1.058
+}
+$grp GenericEntity : "{C1ADC7F69BB42C76}Prefabs/RoleSwitcher.et" {
+ {
+  coords 4941.655 28.775 11763.389
+  angleY -90.728
+ }
+ {
+  coords 4910.64 28.594 11784.52
+  angleY -119.382
+ }
+}
+GenericEntity MedicalCar5 : "{CD5287F272E460CC}Prefabs/IA_VehicleSpawns/IA_HQMedicalCar.et" {
+ coords 4892.633 28.594 11795.097
+ angleX 0.258
+ angleY -178.995
+ angleZ 1.069
+}
+GenericEntity : "{E83944C37C6FA465}PrefabsEditable/Auto/Props/Military/Compositions/FIA/E_ArsenalBox_FIA.et" {
+ components {
+  SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+   m_eArsenalSaveType NO_RESTRICTIONS
+  }
+ }
+ coords 4927.27 28.775 11778.711
+ angleY 178.242
+}
+$grp GenericEntity : "{EBB47F330E855BB4}Prefabs/IA_VehicleSpawns/IA_HQCar.et" {
+ Car1 {
+  coords 4905.343 28.594 11821.116
+  angleX 0.248
+  angleY -178.449
+  angleZ 1.071
+ }
+ Car2 {
+  coords 4900.873 28.594 11821.134
+  angleX 0.261
+  angleY -179.158
+  angleZ 1.068
+ }
+ Car3 {
+  coords 4905.451 28.594 11804.28
+  angleX 0.245
+  angleY -178.287
+  angleZ 1.072
+ }
+ Car4 {
+  coords 4900.896 28.594 11804.277
+  angleX 0.258
+  angleY -178.995
+  angleZ 1.069
+ }
+ Car6 {
+  coords 4905.539 28.594 11812.489
+  angleX 0.248
+  angleY -178.449
+  angleZ 1.071
+ }
+ Car7 {
+  coords 4900.888 28.594 11812.493
+  angleX 0.261
+  angleY -179.158
+  angleZ 1.068
+ }
+ Car8 {
+  coords 4905.627 28.594 11796.312
+  angleX 0.245
+  angleY -178.287
+  angleZ 1.072
+ }
+ Car9 {
+  coords 4901.174 28.594 11796.313
+  angleX 0.258
+  angleY -178.995
+  angleZ 1.069
+ }
+}
+GenericEntity : "{F542F974956C255F}Prefabs/Props/Military/Compositions/CIV/ArsenalBox_CIV.et" {
+ components {
+  SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+   m_eArsenalSaveType NO_RESTRICTIONS
+  }
+ }
+ coords 4925.023 28.775 11778.743
+ angleY 176.538
+}

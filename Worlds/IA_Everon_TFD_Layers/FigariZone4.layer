@@ -1,0 +1,37 @@
+IA_AreaMarker : "{4CE72B528FB4853C}Prefabs/IA_AreaMarkers/RadioTower.et" {
+ coords 5486.417 97.692 6165.043
+ angleY -17.415
+ m_areaGroup 4
+ m_areaName "Provins Radio Tower"
+}
+$grp IA_AreaMarker : "{61B9AD559D2CE12D}Components/Area_Marker.et" {
+ Figari1 {
+  coords 5271.381 62.623 5356.041
+  m_areaGroup 4
+  m_fZoneRadius 90
+  m_areaName "Figari"
+  m_areaType "Town"
+  m_radius 90
+ }
+ Provins {
+  coords 5514.057 95.562 6082.166
+  m_areaGroup 4
+  m_fZoneRadius 50
+  m_areaName "Provins"
+  m_areaType "Military"
+  m_radius 50
+ }
+ Provins2 {
+  coords 5689.963 91.936 5891.127
+  m_areaGroup 4
+  m_fZoneRadius 25
+  m_areaName "Provins Power Station"
+  m_areaType "SmallMilitary"
+  m_radius 25
+ }
+}
+IA_AreaMarker : "{B66EE4ECE753F16C}Prefabs/IA_AreaMarkers/IA_DefendObjective.et" {
+ coords 5265.323 63.503 5335.522
+ m_areaGroup 4
+ m_areaName "Figari Town Square"
+}

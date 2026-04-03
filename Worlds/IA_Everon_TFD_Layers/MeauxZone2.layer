@@ -1,0 +1,51 @@
+IA_AreaMarker : "{4CE72B528FB4853C}Prefabs/IA_AreaMarkers/RadioTower.et" {
+ coords 4653.82 23.649 9569.023
+ angleY 0
+ m_areaGroup 2
+ m_areaName "Meaux Radio Tower"
+}
+$grp IA_AreaMarker : "{61B9AD559D2CE12D}Components/Area_Marker.et" {
+ Meaux1 {
+  coords 4511.915 14.056 9477.685
+  m_areaGroup 2
+  m_fZoneRadius 140
+  m_areaName "Meaux"
+  m_radius 140
+ }
+ Meaux2 {
+  coords 4749.274 20.304 9309.813
+  m_areaGroup 2
+  m_fZoneRadius 25
+  m_areaName "Meaux Ranch"
+  m_areaType "Property"
+  m_radius 25
+ }
+ Meaux3 {
+  coords 4300.869 1.124 9532.308
+  m_areaGroup 2
+  m_fZoneRadius 60
+  m_areaName "Meaux Docks"
+  m_areaType "Docks"
+  m_radius 60
+ }
+ Meaux4 {
+  coords 4443.834 15.094 9585.896
+  m_areaGroup 2
+  m_fZoneRadius 40
+  m_areaName "Meaux Industrial"
+  m_areaType "SmallMilitary"
+  m_radius 40
+ }
+}
+$grp IA_AreaMarker : "{B66EE4ECE753F16C}Prefabs/IA_AreaMarkers/IA_DefendObjective.et" {
+ {
+  coords 4522.229 18.438 9535.195
+  m_areaGroup 2
+  m_areaName "Meaux Church"
+ }
+ {
+  coords 4522.438 14.265 9468.075
+  m_areaGroup 2
+  m_areaName "Meaux Town Square"
+ }
+}

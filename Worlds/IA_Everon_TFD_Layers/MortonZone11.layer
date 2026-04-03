@@ -1,0 +1,22 @@
+$grp IA_AreaMarker : "{61B9AD559D2CE12D}Components/Area_Marker.et" {
+ Morton {
+  coords 5119.357 15.051 3990.188
+  m_areaGroup 11
+  m_fZoneRadius 110
+  m_areaName "Morton"
+  m_radius 110
+ }
+ Morton2 {
+  coords 5275.619 132.345 4590.467
+  m_areaGroup 11
+  m_fZoneRadius 60
+  m_areaName "Morton Lumber Yard"
+  m_areaType "Military"
+  m_radius 60
+ }
+}
+IA_AreaMarker : "{B66EE4ECE753F16C}Prefabs/IA_AreaMarkers/IA_DefendObjective.et" {
+ coords 5130.085 14.239 3992.506
+ m_areaGroup 11
+ m_areaName "Morton City Center"
+}

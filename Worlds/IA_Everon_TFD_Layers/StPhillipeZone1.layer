@@ -1,0 +1,43 @@
+IA_AreaMarker : "{4CE72B528FB4853C}Prefabs/IA_AreaMarkers/RadioTower.et" {
+ coords 4546.507 16.156 10606.07
+ angleY -9.876
+ m_areaGroup 1
+ m_areaName "St Phillipe Radio Tower"
+}
+$grp IA_AreaMarker : "{61B9AD559D2CE12D}Components/Area_Marker.et" {
+ StPhillipe1 {
+  coords 4471.31 13.145 10720.052
+  m_areaGroup 1
+  m_fZoneRadius 300
+  m_areaName "St Phillipe"
+  m_radius 300
+ }
+ StPhillipe2 {
+  coords 4437.092 1.625 11098.566
+  m_areaGroup 1
+  m_fZoneRadius 80
+  m_areaName "St Phillipe Docks"
+  m_areaType "Docks"
+  m_radius 80
+ }
+ StPhillipe3 {
+  coords 4550.358 16.094 10458.317
+  m_areaGroup 1
+  m_fZoneRadius 75
+  m_areaName "St Phillipe Factory"
+  m_areaType "Military"
+  m_radius 75
+ }
+}
+$grp IA_AreaMarker : "{B66EE4ECE753F16C}Prefabs/IA_AreaMarkers/IA_DefendObjective.et" {
+ {
+  coords 4434.012 12.869 10731.695
+  m_areaGroup 1
+  m_areaName "St Phillipe Church"
+ }
+ {
+  coords 4554.872 15.924 10502.152
+  m_areaGroup 1
+  m_areaName "St Phillipe Industrial"
+ }
+}

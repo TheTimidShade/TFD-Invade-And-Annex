@@ -1,0 +1,39 @@
+IA_AreaMarker : "{4CE72B528FB4853C}Prefabs/IA_AreaMarkers/RadioTower.et" {
+ coords 5756.253 8.757 9766.367
+ angleY 0
+ m_areaGroup 8
+ m_fZoneRadius 25
+ m_areaName "Powerplant Radio Tower"
+ m_radius 25
+}
+$grp IA_AreaMarker : "{61B9AD559D2CE12D}Components/Area_Marker.et" {
+ Kermovan1 {
+  coords 6351.554 5.549 9650.465
+  m_areaGroup 8
+  m_fZoneRadius 125
+  m_areaName "Kermovan"
+  m_areaType "Town"
+  m_radius 60
+ }
+ Levie7 {
+  coords 5835.564 4.562 9775.461
+  m_areaGroup 8
+  m_fZoneRadius 75
+  m_areaName "Kermovan Powerplant North"
+  m_areaType "Military"
+  m_radius 75
+ }
+ Levie3 {
+  coords 5860.912 4.092 9693.441
+  m_areaGroup 8
+  m_fZoneRadius 75
+  m_areaName "Kermovan Powerplant South"
+  m_areaType "Military"
+  m_radius 75
+ }
+}
+IA_AreaMarker : "{B66EE4ECE753F16C}Prefabs/IA_AreaMarkers/IA_DefendObjective.et" {
+ coords 5829.289 4.562 9772.481
+ m_areaGroup 8
+ m_areaName "Power Plant"
+}
