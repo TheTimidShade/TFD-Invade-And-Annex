@@ -20,7 +20,7 @@ SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
 PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 1891.659 11.438 1822.161
 }
-SCR_BaseGameMode : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
+SCR_BaseGameMode "6906755EB630A99D" : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
  components {
   GarbageSystemConfigComponent "{655C2771087BBC31}" {
    Config "{829121DACA5887BC}Configs/Systems/GarbageSystem/IA_GarbageCollection.conf"
@@ -369,13 +369,37 @@ SCR_BaseGameMode : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
   SUPPLIES
  }
  {
-  SCR_FactionManager FactionManager_Editor_RHS_TFD_Everon_InvadeAndAnnex1 : "{7A1D037FEB84311D}Prefabs/MP/Managers/Factions/FactionManager_Editor_RHS_TFD_Everon_InvadeAndAnnex.et" {
+  SCR_FactionManager FactionManager_Editor_RHS_TFD_Base1 : "{9C91E5C193F08BAC}Prefabs/MP/Managers/Factions/FactionManager_Editor_RHS_TFD_Base.et" {
    coords 0 0 0
    Factions {
     SCR_Faction "{5CC8DE37E1FF0F7A}" {
+     m_aGroupRolePresetConfigs {
+      SCR_GroupRolePresetConfig "{690675549A7D2FBF}" {
+       m_sGroupName "Alpha"
+       m_eGroupRole ASSAULT
+       m_iGroupSize 6
+       m_sGroupRoleName "#AR-GroupRole-Assault"
+       m_aLoadoutResources {
+        ""
+        ""
+        ""
+        ""
+        ""
+        ""
+        ""
+       }
+      }
+     }
      m_aPredefinedGroups {
-      SCR_GroupPreset "{69067559F1473B7E}" {
-       m_iGroupSize 8
+      SCR_GroupPreset "{6906755451C18E22}" {
+       m_sGroupName "Alpha"
+       m_eGroupRole ASSAULT
+       m_iGroupSize 6
+      }
+      SCR_GroupPreset "{6906755471562715}" {
+       m_sGroupName "Bravo"
+       m_eGroupRole ASSAULT
+       m_iGroupSize 6
       }
      }
     }
@@ -389,7 +413,7 @@ SCR_BaseGameMode : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
     CHARACTER
    }
   }
-  SCR_LoadoutManager : "{730C311299FD22A1}Prefabs/MP/Managers/Loadouts/LoadoutManager_Editor_RHS_TFD_Base.et" {
+  SCR_LoadoutManager : "{730C311299FD22A2}Prefabs/MP/Managers/Loadouts/LoadoutManager_Editor_RHS_TFD_Base.et" {
    coords 0 0 0
   }
  }
