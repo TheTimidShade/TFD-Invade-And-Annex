@@ -1,15 +1,377 @@
+SCR_BaseGameMode : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
+ components {
+  GarbageSystemConfigComponent "{655C2771087BBC31}" {
+   Config "{829121DACA5887BC}Configs/Systems/GarbageSystem/IA_GarbageCollection.conf"
+  }
+  IA_LeaderboardManagerComponent "{65EC21982326B88F}" {
+  }
+  SCR_CampaignBuildingManagerComponent "{658D08F10A28404C}" {
+   m_sFreeRoamBuildingClientTrigger "{5E191CEAF4B95816}Prefabs/MP/FreeRoamBuildingClientTrigger.et"
+   m_iCompositionRefundPercentage 50
+   m_OutlineManager SCR_CampaignBuildingCompositionOutlineManager "{658D08F11AC8010C}" {
+    m_sSlotFlatSmallLayout "{7FD4E6A668B4537A}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SlotFLatSmall.et"
+    m_sSlotFlatMediumLayout "{579FF731013436B5}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SlotFlatMedium.et"
+    m_sSlotFlatLargeLayout "{D06D9D47008E794F}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SlotRoadLarge.et"
+    m_sSlotRoadSmallLayout "{8DBA7E7BF662A393}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SlotRoadSmall.et"
+    m_sSlotRoadMediumLayout "{3A5E87ADA26C6940}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SlotRoadMedium.et"
+    m_sSlotRoadLargeLayout "{D06D9D47008E794F}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SlotRoadLarge.et"
+    m_aCompositionLayouts {
+     SCR_CampaignBuildingCompositionOutline "{5D34D094366A7550}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D72F0270133FB37}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E5F0CB45E2A23A7}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D72F02746156600}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D34D092A3936AEF}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D62992D16358CB8}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D66BBDB8EC3B5AB}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D6C8153F1E8DE35}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D6C90E24B82ACDA}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D70BA35862CBAFA}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D70E0D34990A444}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D70E6DFBDA31CD7}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D70E6DFBD43B548}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D7279EF17063959}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D7279EF1720B169}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D7279EF08F63D30}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D72CCC764A2F661}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D72D426E04FAF9C}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D72D426E39D1C18}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D72D426E3AD6268}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D72F0241E59B4E6}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E64B54CA767DC45}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E64CB149EC493F2}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E64CB1491E75290}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E76DD003E31C9B9}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84B741B345270B}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84B741F2EDD817}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84B928D2DC9B20}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84C8B46847646C}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84C8B4680E1AE5}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84D70A8FCD3C63}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84D70A8FEA660C}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84DE08853459C4}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84DE0885209F52}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84DE0886C48CC7}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84DE0886EA1694}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84DE088695C569}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84DE0CF28B4478}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E86B98DBC39DC37}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E86B98DBDDCE7AB}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E86B98BB2A97FE4}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E86B98BB2558DB9}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E86B9874A7B27EA}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E86B9874A0B7600}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B055AECC1CA3}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B055AE8B0AAD}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B055AE171BE0}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B04A7701A2A8}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B04A77205ED6}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B04A5552879A}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B0489E3AA298}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B0489FDBAB79}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B046F1D6FD63}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B046F1F57EA3}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B046F18FA42C}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B07DCA32C81F}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B07DCBD32DB3}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E8A722E1480BD64}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E8A722E14A6F5FF}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E8A722E760349A1}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E8A722E77DFEFBE}" {
+     }
+    }
+   }
+   m_sPrefabsToBuildResource "{D2527D9AA5B4A33E}Configs/Editor/PlaceableEntities/Compositions/Compositions_FreeRoamBuilding.conf"
+   m_sPrefabToHoldSupplyOnRefund "{4BBE0A784C01900E}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_FreeRoamBuilding.et"
+  }
+  SCR_CommandingManagerComponent "{6562F69023FBDF1C}" {
+   m_iMaxAIPerGroup 16
+  }
+  SCR_DebriefingScreenComponent "{65552AEEB5A2CE5E}" {
+   m_BaseLayout SCR_DebriefingScreenUnevenFourTiles "{65552AEF3C0B8B52}" {
+    m_sFourUnevenTilesLayout "{DFE8A23A8550514C}UI/layouts/Menus/DeployMenu/DebriefingScreenFourUnevenTiles.layout"
+    m_TopLeftTile SCR_DebriefingScreenBigImageContent "{5D349E30244A4792}" {
+     m_sContentImage "{62897631F4A6C7F3}UI/Textures/MissionLoadingScreens/Reforger_ConflictArt_UI.edds"
+    }
+    m_TopRightTile SCR_DebriefingScreenFinishedObjectivesContent "{5D349E305DB53338}" {
+     m_bIsInteractible 1
+     m_sTitleText "#AR-DebriefingScreen_Objectives"
+     m_sFinishedObjectivesTileLayout "{B3A6950DF2D34576}UI/layouts/Menus/DeployMenu/DebriefingScreenFinishedObjectivesTile.layout"
+    }
+    m_BottomLeftTile SCR_DebriefingScreenSummaryContent "{5D349E3056A9E455}" {
+     m_sTitleText "#AR-DebriefingScreen_Debriefing"
+     m_sSubtitleText "#AR-DebriefingScreen_Subtitle"
+     m_sSubtitleLostText "#AR-DebriefingScreen_Subtitle_Lost"
+    }
+    m_BottomRightTile SCR_DebriefingScreenStatisticsContent "{5D349E3049CC104E}" {
+     m_sTitleText "#AR-DebriefingScreen_Statistics"
+     m_aStatistics {
+      SCR_DebriefingScreenStatisticShotsFired "{5D349E306369C7B4}" {
+      }
+      SCR_DebriefingScreenStatisticKills "{5D349E30617925FA}" {
+      }
+      SCR_DebriefingScreenStatisticDeaths "{5D349E306543E543}" {
+      }
+      SCR_DebriefingScreenStatisticDistanceWalked "{5D349E309B4CDF81}" {
+      }
+      SCR_DebriefingScreenStatisticDistanceDriven "{5D349E3098F208B6}" {
+      }
+     }
+    }
+   }
+  }
+  SCR_EntityCatalogManagerComponent "{5C9AD18D91F9E87E}" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C9AD18D9D38E99E}" : "{AB06FC03FBA685C8}Configs/EntityCatalog/CIV/Characters_EntityCatalog_CIV.conf" {
+    }
+    SCR_EntityCatalogMultiList "{5C9AD18D9B68853E}" : "{7C53DF3E1349C5B8}Configs/EntityCatalog/CIV/Vehicles_EntityCatalog_CIV.conf" {
+    }
+    SCR_EntityCatalogMultiList "{61C8EED3993E46B7}" : "{45152C9ADA59EEEB}Configs/EntityCatalog/CIV/Groups_EntityCatalog_CIV.conf" {
+    }
+    SCR_EntityCatalogMultiList "{61C8EED39E8B0DC3}" : "{361D4401A7A7102A}Configs/EntityCatalog/CIV/WeaponTripod_EntityCatalog_CIV.conf" {
+    }
+    SCR_EntityCatalogMultiList "{5C9AD18D98F9181C}" : "{9D7E5804BB2E9B28}Configs/EntityCatalog/CIV/InventoryItems_EntityCatalog_CIV.conf" {
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{621AA63A70D132BF}" {
+       m_sIdentifier "UNKNOWN"
+      }
+     }
+    }
+    SCR_EntityCatalogMultiList "{654F7B2F47DB28DC}" : "{B56E8B4D4B195559}Configs/EntityCatalog/US/Characters_EntityCatalog_US.conf" {
+    }
+    SCR_EntityCatalogMultiList "{654F7B2F45094FCE}" : "{3B679F1799D55F6F}Configs/EntityCatalog/USSR/Characters_EntityCatalog_USSR.conf" {
+    }
+    SCR_EntityCatalogMultiList "{654F7B2F4A4AABBC}" : "{4E70E7C4C2C17D4A}Configs/EntityCatalog/US/Groups_EntityCatalog_US.conf" {
+    }
+    SCR_EntityCatalogMultiList "{654F7B2F4B8D07FF}" : "{37D5B75AAC3E72EA}Configs/EntityCatalog/USSR/Groups_EntityCatalog_USSR.conf" {
+    }
+    SCR_EntityCatalogMultiList "{654F7B2F48FDFF98}" : "{5F7EC52FC40A03E2}Configs/EntityCatalog/US/InventoryItems_EntityCatalog_US.conf" {
+    }
+    SCR_EntityCatalogMultiList "{654F7B2F4D5A3A80}" : "{C53421647C3D0D2E}Configs/EntityCatalog/USSR/InventoryItems_EntityCatalog_USSR.conf" {
+    }
+    SCR_EntityCatalog "{654F7B2F524E62B1}" : "{0BF36EFF9FFAF92B}Configs/EntityCatalog/US/SupplyContainerItems_EntityCatalog_US.conf" {
+    }
+    SCR_EntityCatalog "{654F7B2F530F1446}" : "{B4CA6761AC935808}Configs/EntityCatalog/USSR/SupplyContainerItems_EntityCatalog_USSR.conf" {
+    }
+    SCR_EntityCatalogMultiList "{654F7B2F53C7C3AE}" : "{D83A5EFEEF6CBF61}Configs/EntityCatalog/US/Vehicles_EntityCatalog_US.conf" {
+    }
+    SCR_EntityCatalogMultiList "{654F7B2F50D555D9}" : "{09C2ED5F617A0390}Configs/EntityCatalog/USSR/Vehicles_EntityCatalog_USSR.conf" {
+    }
+    SCR_EntityCatalog "{654F7B2F51DA9B97}" : "{0E4B62F186F97C43}Configs/EntityCatalog/US/WeaponTripod_EntityCatalog_US.conf" {
+    }
+    SCR_EntityCatalog "{654F7B2F56E1FBBC}" : "{DDF17C8C140BD1F2}Configs/EntityCatalog/USSR/WeaponTripod_EntityCatalog_USSR.conf" {
+    }
+    SCR_EntityCatalogMultiList "{654F7B2F667FC3C6}" : "{6F6056A597C462CC}Configs/EntityCatalog/FIA/Characters_EntityCatalog_FIA.conf" {
+    }
+    SCR_EntityCatalogMultiList "{654F7B2F672E362B}" : "{2F785E9F5C561C50}Configs/EntityCatalog/FIA/Groups_EntityCatalog_FIA.conf" {
+    }
+    SCR_EntityCatalogMultiList "{654F7B2F67DECDD8}" : "{E908001749419691}Configs/EntityCatalog/FIA/InventoryItems_EntityCatalog_FIA.conf" {
+    }
+    SCR_EntityCatalog "{654F7B2F648AE98C}" : "{C9187BDF77D40F34}Configs/EntityCatalog/FIA/SupplyContainerItems_EntityCatalog_FIA.conf" {
+    }
+    SCR_EntityCatalogMultiList "{654F7B2F654C40E5}" : "{EBAEEC261D3849A6}Configs/EntityCatalog/FIA/Vehicles_EntityCatalog_FIA.conf" {
+    }
+    SCR_EntityCatalog "{654F7B2F6A7CFAA1}" : "{788ADC7B3D869324}Configs/EntityCatalog/FIA/WeaponTripod_EntityCatalog_FIA.conf" {
+    }
+    SCR_EntityCatalogMultiList "{654F7B2F71982749}" : "{EAD206A79A774696}Configs/EntityCatalog/FactionLess/Characters_EntityCatalog_Factionless.conf" {
+    }
+    SCR_EntityCatalogMultiList "{654F7B2F764CD8CB}" : "{2E8FFD9558E26113}Configs/EntityCatalog/FactionLess/Groups_EntityCatalog_Factionless.conf" {
+    }
+    SCR_EntityCatalogMultiList "{654F7B2F7713DC4C}" : "{BB12292052E2F5B8}Configs/EntityCatalog/FactionLess/InventoryItems_EntityCatalog_Factionless.conf" {
+    }
+    SCR_EntityCatalog "{654F7B2F745D6B46}" : "{B80293331FB7BFCF}Configs/EntityCatalog/FactionLess/SupplyContainerItems_EntityCatalog_Factionless.conf" {
+    }
+    SCR_EntityCatalogMultiList "{654F7B2F75978705}" : "{77243A71AF0E5A75}Configs/EntityCatalog/FactionLess/Vehicles_EntityCatalog_Factionless.conf" {
+    }
+    SCR_EntityCatalogMultiList "{654F7B2F7A82975D}" : "{0CC054C7DEDC766E}Configs/EntityCatalog/FactionLess/WeaponTripod_EntityCatalog_Factionless.conf" {
+    }
+   }
+  }
+  SCR_GameModeHealthSettings "{5A22E11F9ACBB1DF}" {
+   m_fDOTScale 0.7
+   m_fRegenScale 1.25
+   m_bPermitUnconsciousVON 1
+   m_fCompartmentRegenerationRateMultiplier 2
+   m_fRegenerationScale 1.25
+  }
+  SCR_GroupsManagerComponent "{5706EC99934496F5}" {
+   m_aGroupFlags {
+   }
+  }
+  SCR_NametagConfigComponent "{571AA9E54FC9210D}" {
+   m_sConfigPath "{10EAD9734BDF9F9C}Configs/NameTags/NametagFriendliestest.conf"
+  }
+  SCR_NotificationSenderComponent "{56FA84B04BE7D4C0}" {
+   m_iReceiveKillFeedType SAME_FACTION_ONLY
+  }
+  SCR_PlayerSpawnPointManagerComponent "{655A185827789972}" {
+   m_SpawnPointPrefab "{456EFDDA59DD6EB2}Prefabs/MP/PlayerRadioSpawnPoint.et"
+   m_bRadioVehicleSpawningEnabled 1
+   m_eDeployableSpawnPointBudgetType NONE
+   m_iDeployableSpawnPointTicketAmount 0
+  }
+  SCR_RespawnBriefingComponent "{65552AF13AFD04B3}" {
+   m_sJournalConfigPath "{13438C835CFF21FB}Configs/Journal/Journal.conf"
+   m_Info SCR_UIInfo "{65552AF3152BD044}" {
+    Description "#AR-Campaign_GamemodeTutorial"
+   }
+   m_aGameModeHints {
+    SCR_UIInfo "{65552AF33BED1C68}" {
+     Name "#AR-BriefingCampaign_Hint_Name_01"
+     Description "#AR-BriefingCampaign_Hint_Description_01"
+     Icon "{324E923535DCACF8}UI/Textures/DeployMenu/Briefing/conflict_HintBanner_1_UI.edds"
+    }
+   }
+   m_aWinConditions {
+    SCR_BriefingVictoryCondition "{65552AF3E7A9A448}" {
+     victoryCondition SEIZE
+     name "Seize the Entire Island"
+    }
+   }
+  }
+  SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
+   m_SpawnLogic SCR_MenuSpawnLogic "{654F7B2E826DD03D}" {
+   }
+  }
+  SCR_SpawnProtectionComponent "{655A18587681A104}" {
+   m_fProtectionTime 10
+   m_bAllowPlayerSpawnpoints 1
+  }
+  SCR_TimeAndWeatherHandlerComponent "{6562F6960C02A014}" {
+   m_iStartingHours 13
+   m_bRandomStartingDaytime 1
+   m_bRandomStartingDaytimeRange 1
+   m_iRangeHoursStart 10
+   m_iRangeHoursEnd 16
+   m_fDayTimeAcceleration 4
+   m_fNightTimeAcceleration 6
+   m_bRandomStartingWeather 1
+   m_bRandomWeatherChanges 1
+  }
+  SCR_WelcomeScreenComponent "{65552AF6586B943C}" {
+   m_sHeaderTitle "Welcome to Mike's Invade and Annex"
+   m_sHeaderSubtitle "Welcome to Mike's Invade and Annex"
+   m_BaseLayout SCR_WelcomeScreenThreeHorizontalColumns "{65552AF65DB4999B}" {
+    m_LeftColumn SCR_WelcomeScreenIntroductionContent "{65552AF67A42FB82}" {
+     m_sTitleText "Invade and Annex Introduction"
+     m_aIntroduction {
+      SCR_WelcomeScreenIntroduction "{65552AF7939A1BCE}" {
+       m_sContentTitleText "Introduction"
+       m_sContentDescriptionText "Invade and Annex is a Cooperative gamemode where the Players face off against a dynamically generated AI force. It is a Island Conquer mission similar to Conflict, but you only have a single AO to handle at once."
+      }
+     }
+    }
+    m_MiddleColumn SCR_WelcomeScreenIntroductionContent "{65552AF71902BF3E}" {
+     m_sTitleText "Development Progress"
+     m_aIntroduction {
+      SCR_WelcomeScreenIntroduction "{65552AF727D8778F}" {
+       m_sContentTitleText "Alpha Stage"
+       m_sContentDescriptionText "During Alpha the feature set will slowly be built up to match previous implementations of Invade and Annex while also including new gameplay components that leverage Reforrger's new functionality."
+      }
+     }
+    }
+    m_RightColumn SCR_WelcomeScreenIntroductionContent "{65552AF89C8C5544}" {
+     m_sTitleText "Discord Info"
+     m_aIntroduction {
+      SCR_WelcomeScreenIntroduction "{65552AF8A11A40FE}" {
+       m_sContentTitleText "Discord"
+       m_sContentDescriptionText "For more information or to provide suggestions access the Discord here: discord.gg/VXYxGFnpbm"
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 5000 80.875 5000
+ m_fAutoReloadTime 10
+ m_aDisabledResourceTypes {
+  SUPPLIES
+ }
+ {
+  SCR_FactionManager FactionManager_Editor_RHS_TFD1 : "{9C91E5C193F08BAC}Prefabs/MP/Managers/Factions/FactionManager_Editor_RHS_TFD.et" {
+   coords 0 0 0
+  }
+  RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
+   coords 0 0 0
+  }
+  SCR_EditorSettingsEntity {
+   coords -1.323 0 1.368
+   m_SkipStreamingRules {
+    CHARACTER
+   }
+  }
+  SCR_LoadoutManager : "{B54D08AEA74A5354}Prefabs/MP/Managers/Loadouts/LoadoutManager_Editor.et" {
+   coords 0 0 0
+  }
+ }
+}
 $grp GenericEntity : "{024EDCF56DD2165E}Prefabs/IA_VehicleSpawns/IA_HQTruck.et" {
  Truck1 {
   coords 4900.161 28.594 11861.914
-  angleX 0.299
-  angleY 178.782
-  angleZ 1.058
+  angles 0.299 178.782 1.058
  }
  Truck2 {
   coords 4905.292 28.594 11861.916
-  angleX 0.299
-  angleY 178.782
-  angleZ 1.058
+  angles 0.299 178.782 1.058
  }
 }
 GenericEntity : "{1693A2CCA4BFD922}Prefabs/Props/Military/Compositions/US/FuelService_US_Large.et" {
@@ -25,7 +387,7 @@ GenericEntity : "{1693A2CCA4BFD922}Prefabs/Props/Military/Compositions/US/FuelSe
   }
  }
  coords 4838 28.5 11724
- angleY 90
+ angles 0 90 0
  {
   GenericEntity {
    ID "5E6A90B022FE573D"
@@ -41,15 +403,11 @@ GenericEntity : "{1693A2CCA4BFD922}Prefabs/Props/Military/Compositions/US/FuelSe
 $grp GenericEntity : "{2A365FE7758AAB49}Prefabs/IA_VehicleSpawns/IA_HQAPC.et" {
  APC3 {
   coords 4899.604 28.594 11842.893
-  angleX -0.834
-  angleY 179.935
-  angleZ 0.413
+  angles -0.834 179.935 0.413
  }
  APC2 {
   coords 4906.729 28.594 11842.619
-  angleX 0.036
-  angleY 179.938
-  angleZ 0.202
+  angles 0.036 179.938 0.202
  }
 }
 GenericEntity : "{45C675ED3CFBBEC5}Prefabs/Props/Military/Compositions/US/ArsenalBox_US.et" {
@@ -59,20 +417,16 @@ GenericEntity : "{45C675ED3CFBBEC5}Prefabs/Props/Military/Compositions/US/Arsena
   }
  }
  coords 4931.652 28.775 11778.852
- angleY 177.531
+ angles 0 177.531 0
 }
 $grp GenericEntity : "{6CD1DF9BB4591E8A}Prefabs/IA_VehicleSpawns/IA_HQArmor.et" {
  Armor2 {
   coords 4906.8 28.594 11831.352
-  angleX 0.036
-  angleY 179.938
-  angleZ 0.202
+  angles 0.036 179.938 0.202
  }
  Armor1 {
   coords 4899.713 28.594 11831.768
-  angleX 0.036
-  angleY 179.938
-  angleZ 0.202
+  angles 0.036 179.938 0.202
  }
 }
 GenericEntity : "{7BDAD0F4A6195C01}PrefabsEditable/SupportStationSystems/E_SupportStationSystem_Repair_Helipad_BoundingBox.et" {
@@ -109,7 +463,7 @@ GameEntity : "{82A575F7D83C3231}Prefabs/Props/Military/Compositions/US/HeliWeapo
   }
  }
  coords 4841.917 28.5 11724.812
- angleY 7.568
+ angles 0 7.568 0
  {
   GameEntity {
    ID "631B64AD64E321F5"
@@ -124,7 +478,7 @@ GameEntity : "{82A575F7D83C3231}Prefabs/Props/Military/Compositions/US/HeliWeapo
     }
    }
    coords 0.011 0 0.618
-   angleY 114.512
+   angles 0 114.512 0
   }
   GameEntity {
    ID "631B64AA897A2786"
@@ -137,9 +491,7 @@ GameEntity : "{82A575F7D83C3231}Prefabs/Props/Military/Compositions/US/HeliWeapo
     }
    }
    coords -0.129 0 -1.259
-   angleX 0
-   angleY 180
-   angleZ 0
+   angles 0 180 0
   }
   GenericEntity {
    ID "61B2A377DDDEF07E"
@@ -154,9 +506,7 @@ GameEntity : "{82A575F7D83C3231}Prefabs/Props/Military/Compositions/US/HeliWeapo
 }
 GenericEntity : "{A13F6A7F82DF031B}Prefabs/Compositions/Slotted/SlotFlatLarge/Helipad_L_US_01.et" {
  coords 4815.712 28.214 11787.743
- angleX -0.811
- angleY 2.67
- angleZ -1.829
+ angles -0.811 2.67 -1.829
 }
 GenericEntity : "{AD59EDEAA26CE792}Prefabs/Props/Military/Compositions/USSR/ArsenalBox_USSR.et" {
  components {
@@ -165,35 +515,29 @@ GenericEntity : "{AD59EDEAA26CE792}Prefabs/Props/Military/Compositions/USSR/Arse
   }
  }
  coords 4929.441 28.775 11778.766
- angleY 172.346
+ angles 0 172.346 0
 }
 GenericEntity Medical2 : "{B21E0EFD1E70E2F4}Prefabs/IA_VehicleSpawns/IA_HQMedical.et" {
  coords 4892.531 28.594 11805.324
- angleX 0.258
- angleY -178.995
- angleZ 1.069
+ angles 0.258 -178.995 1.069
 }
 GenericEntity Truck3 : "{B5044C2D33FA8D61}Prefabs/IA_VehicleSpawns/IA_Construction_Truck.et" {
  coords 4903.414 28.594 11874.532
- angleX 0.299
- angleY 178.782
- angleZ 1.058
+ angles 0.299 178.782 1.058
 }
 $grp GenericEntity : "{C1ADC7F69BB42C76}Prefabs/RoleSwitcher.et" {
  {
   coords 4941.655 28.775 11763.389
-  angleY -90.728
+  angles 0 -90.728 0
  }
  {
   coords 4910.64 28.594 11784.52
-  angleY -119.382
+  angles 0 -119.382 0
  }
 }
 GenericEntity MedicalCar5 : "{CD5287F272E460CC}Prefabs/IA_VehicleSpawns/IA_HQMedicalCar.et" {
  coords 4892.633 28.594 11795.097
- angleX 0.258
- angleY -178.995
- angleZ 1.069
+ angles 0.258 -178.995 1.069
 }
 GenericEntity : "{E83944C37C6FA465}PrefabsEditable/Auto/Props/Military/Compositions/FIA/E_ArsenalBox_FIA.et" {
  components {
@@ -202,56 +546,40 @@ GenericEntity : "{E83944C37C6FA465}PrefabsEditable/Auto/Props/Military/Compositi
   }
  }
  coords 4927.27 28.775 11778.711
- angleY 178.242
+ angles 0 178.242 0
 }
 $grp GenericEntity : "{EBB47F330E855BB4}Prefabs/IA_VehicleSpawns/IA_HQCar.et" {
  Car1 {
   coords 4905.343 28.594 11821.116
-  angleX 0.248
-  angleY -178.449
-  angleZ 1.071
+  angles 0.248 -178.449 1.071
  }
  Car2 {
   coords 4900.873 28.594 11821.134
-  angleX 0.261
-  angleY -179.158
-  angleZ 1.068
+  angles 0.261 -179.158 1.068
  }
  Car3 {
   coords 4905.451 28.594 11804.28
-  angleX 0.245
-  angleY -178.287
-  angleZ 1.072
+  angles 0.245 -178.287 1.072
  }
  Car4 {
   coords 4900.896 28.594 11804.277
-  angleX 0.258
-  angleY -178.995
-  angleZ 1.069
+  angles 0.258 -178.995 1.069
  }
  Car6 {
   coords 4905.539 28.594 11812.489
-  angleX 0.248
-  angleY -178.449
-  angleZ 1.071
+  angles 0.248 -178.449 1.071
  }
  Car7 {
   coords 4900.888 28.594 11812.493
-  angleX 0.261
-  angleY -179.158
-  angleZ 1.068
+  angles 0.261 -179.158 1.068
  }
  Car8 {
   coords 4905.627 28.594 11796.312
-  angleX 0.245
-  angleY -178.287
-  angleZ 1.072
+  angles 0.245 -178.287 1.072
  }
  Car9 {
   coords 4901.174 28.594 11796.313
-  angleX 0.258
-  angleY -178.995
-  angleZ 1.069
+  angles 0.258 -178.995 1.069
  }
 }
 GenericEntity : "{F542F974956C255F}Prefabs/Props/Military/Compositions/CIV/ArsenalBox_CIV.et" {
@@ -261,5 +589,5 @@ GenericEntity : "{F542F974956C255F}Prefabs/Props/Military/Compositions/CIV/Arsen
   }
  }
  coords 4925.023 28.775 11778.743
- angleY 176.538
+ angles 0 176.538 0
 }
