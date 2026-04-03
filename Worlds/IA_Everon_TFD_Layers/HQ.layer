@@ -409,6 +409,10 @@ $grp GenericEntity : "{2A365FE7758AAB49}Prefabs/IA_VehicleSpawns/IA_HQAPC.et" {
   angles 0.036 179.938 0.202
  }
 }
+GenericEntity : "{3970981B94D3F882}Prefabs/Systems/Arsenal/ArsenalBoxes/US/ArsenalBox_USMC.et" {
+ coords 4936.968 28.775 11775.542
+ angles 0 -90.322 0
+}
 GenericEntity : "{45C675ED3CFBBEC5}Prefabs/Props/Military/Compositions/US/ArsenalBox_US.et" {
  components {
   SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
@@ -417,6 +421,10 @@ GenericEntity : "{45C675ED3CFBBEC5}Prefabs/Props/Military/Compositions/US/Arsena
  }
  coords 4931.652 28.775 11778.852
  angles 0 177.531 0
+}
+GenericEntity : "{691477161637ECDB}Prefabs/Systems/Arsenal/ArsenalBoxes/ION/ArsenalBox_RHS_ION.et" {
+ coords 4937.211 28.775 11781.336
+ angles 0 -90.322 0
 }
 $grp GenericEntity : "{6CD1DF9BB4591E8A}Prefabs/IA_VehicleSpawns/IA_HQArmor.et" {
  Armor2 {
@@ -589,4 +597,8 @@ GenericEntity : "{F542F974956C255F}Prefabs/Props/Military/Compositions/CIV/Arsen
  }
  coords 4925.023 28.775 11778.743
  angles 0 176.538 0
+}
+GenericEntity : "{FB95D1B918E908A9}Prefabs/Systems/Arsenal/ArsenalBoxes/USSR/ArsenalBox_RHS.et" {
+ coords 4937.065 28.775 11778.406
+ angles 0 -90.322 0
 }
