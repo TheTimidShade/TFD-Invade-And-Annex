@@ -347,14 +347,13 @@ SCR_BaseGameMode : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
   SUPPLIES
  }
  {
-  SCR_FactionManager FactionManager_Editor_RHS_TFD1 : "{9C91E5C193F08BAC}Prefabs/MP/Managers/Factions/FactionManager_Editor_RHS_TFD.et" {
+  SCR_FactionManager FactionManager_Editor_RHS_TFD_Everon_InvadeAndAnnex1 : "{7A1D037FEB84311D}Prefabs/MP/Managers/Factions/FactionManager_Editor_RHS_TFD_Everon_InvadeAndAnnex.et" {
    coords 0 0 0
   }
   RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
    coords 0 0 0
   }
   SCR_EditorSettingsEntity {
-   coords -1.323 0 1.368
    m_SkipStreamingRules {
     CHARACTER
    }
