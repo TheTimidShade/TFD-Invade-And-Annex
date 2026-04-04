@@ -386,6 +386,74 @@ SCR_BaseGameMode "6906755EB630A99D" : "{0F307326459A1395}Prefabs/MP/Modes/GameMo
   }
   SCR_LoadoutManager : "{730C311299FD22A2}Prefabs/MP/Managers/Loadouts/LoadoutManager_Editor_RHS_TFD_Base.et" {
    coords 0 0 0
+   m_aPlayerLoadouts {
+    SCR_FactionPlayerLoadout "{69083E151BDCBF7B}" {
+     m_sLoadoutName "USMC Marksman"
+     m_sLoadoutResource "{3C935933439BDEBD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_TL_Marksman.et"
+     m_sLoadoutImage "{EF356BBBD4D6725B}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_TL_M38.edds"
+     m_sAffiliatedFaction "RHS_USAF"
+    }
+    SCR_FactionPlayerLoadout "{69083E140BEE3822}" {
+     m_sLoadoutName "USMC Ammo Bearer"
+     m_sLoadoutResource "{58E18718B3EE5F92}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Ammo.et"
+     m_sLoadoutImage "{E5A8AFC9058389BB}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Ammo.edds"
+     m_sAffiliatedFaction "RHS_USAF"
+    }
+    SCR_FactionPlayerLoadout "{69083E16DBF01BC2}" {
+     m_sLoadoutName "USMC Sapper"
+     m_sLoadoutResource "{FAC429BE41EFFA37}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Sapper.et"
+     m_sLoadoutImage "{4AE89BC32EE6C3D1}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Sapper.edds"
+     m_sAffiliatedFaction "RHS_USAF"
+    }
+    SCR_FactionPlayerLoadout "{69083E16D93D7C84}" {
+     m_sLoadoutName "USMC Sniper"
+     m_sLoadoutResource "{19678B9267B3574A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Sniper.et"
+     m_sLoadoutImage "{3E2F3E1DED88FA7F}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Sniper.edds"
+     m_sAffiliatedFaction "RHS_USAF"
+    }
+    SCR_FactionPlayerLoadout "{69083E16D9DA0A80}" {
+     m_sLoadoutName "USMC Spotter"
+     m_sLoadoutResource "{B74E289F7EDF5D62}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Spotter.et"
+     m_sLoadoutImage "{D9E6A5C43E362C8C}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Spotter.edds"
+     m_sAffiliatedFaction "RHS_USAF"
+    }
+    SCR_FactionPlayerLoadout "{69083E16E6F46A6F}" {
+     m_sLoadoutName "USMC Machinegunner"
+     m_sLoadoutResource "{70F8C68A5ACB7AB5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_MG.et"
+     m_sLoadoutImage "{DADB0E8280F7945F}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_MG.edds"
+     m_sAffiliatedFaction "RHS_USAF"
+    }
+    SCR_FactionPlayerLoadout "{69083E16E794D18D}" {
+     m_sLoadoutName "USMC Assistant Machinegunner"
+     m_sLoadoutResource "{3758C8E49E3C344A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_AMG.et"
+     m_sLoadoutImage "{A803DA0F470A4C0F}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_AMG.edds"
+     m_sAffiliatedFaction "RHS_USAF"
+    }
+    SCR_FactionPlayerLoadout "{69083E16E455D977}" {
+     m_sLoadoutName "USMC Anti-tank"
+     m_sLoadoutResource "{FA4771514D0D700A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_AT.et"
+     m_sLoadoutImage "{F2669784D2163DD8}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_AT.edds"
+     m_sAffiliatedFaction "RHS_USAF"
+    }
+    SCR_FactionPlayerLoadout "{69083E17C5AC4929}" {
+     m_sLoadoutName "USMC Assistant Anti-tank"
+     m_sLoadoutResource "{BDE77F3F89FA3EF5}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_AAT.et"
+     m_sLoadoutImage "{80BE430915EBE588}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_AAT.edds"
+     m_sAffiliatedFaction "RHS_USAF"
+    }
+    SCR_FactionPlayerLoadout "{69083E17C210D71D}" {
+     m_sLoadoutName "USMC Crew"
+     m_sLoadoutResource "{7402385F6EE584DD}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Crew.et"
+     m_sLoadoutImage "{BA3F4A61F2CC01B7}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Crew.edds"
+     m_sAffiliatedFaction "RHS_USAF"
+    }
+    SCR_FactionPlayerLoadout "{69083E140D8A3640}" {
+     m_sLoadoutName "USMC Heli Pilot"
+     m_sLoadoutResource "{42A502E3BB727CEC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliPilot.et"
+     m_sLoadoutImage "{CF7E0A59490AAF37}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_HeliPilot.edds"
+     m_sAffiliatedFaction "RHS_USAF"
+    }
+   }
   }
  }
 }
