@@ -373,35 +373,6 @@ SCR_BaseGameMode "6906755EB630A99D" : "{0F307326459A1395}Prefabs/MP/Modes/GameMo
    coords 0 0 0
    Factions {
     SCR_Faction "{5CC8DE37E1FF0F7A}" {
-     m_aGroupRolePresetConfigs {
-      SCR_GroupRolePresetConfig "{690675549A7D2FBF}" {
-       m_sGroupName "Alpha"
-       m_eGroupRole ASSAULT
-       m_iGroupSize 6
-       m_sGroupRoleName "#AR-GroupRole-Assault"
-       m_aLoadoutResources {
-        ""
-        ""
-        ""
-        ""
-        ""
-        ""
-        ""
-       }
-      }
-     }
-     m_aPredefinedGroups {
-      SCR_GroupPreset "{6906755451C18E22}" {
-       m_sGroupName "Alpha"
-       m_eGroupRole ASSAULT
-       m_iGroupSize 6
-      }
-      SCR_GroupPreset "{6906755471562715}" {
-       m_sGroupName "Bravo"
-       m_eGroupRole ASSAULT
-       m_iGroupSize 6
-      }
-     }
     }
    }
   }
