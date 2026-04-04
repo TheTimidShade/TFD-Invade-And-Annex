@@ -371,10 +371,6 @@ SCR_BaseGameMode "6906755EB630A99D" : "{0F307326459A1395}Prefabs/MP/Modes/GameMo
  {
   SCR_FactionManager FactionManager_Editor_RHS_TFD_Base1 : "{9C91E5C193F08BAC}Prefabs/MP/Managers/Factions/FactionManager_Editor_RHS_TFD_Base.et" {
    coords 0 0 0
-   Factions {
-    SCR_Faction "{5CC8DE37E1FF0F7A}" {
-    }
-   }
   }
   RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
    coords 0 0 0
@@ -395,17 +391,18 @@ ScriptedChatEntity : "{F69BC912AC8236F9}Prefabs/MP/ScriptedChatEntity.et" {
 IA_VehicleManager : "{07F25000A2274994}Components/VehicleManager.et" {
  coords 9238.838 85.906 1546.349
 }
-SCR_SpawnPoint : "{0CAE96554C7FEB3D}PrefabsEditable/SpawnPoints/E_SpawnPoint_US_USMC.et" {
- coords 4937.391 28.775 11763.439
+IA_ReplicationWorkaround : "{1C5F0CA68E666359}Components/Replication_Workaround.et" {
+ coords 4829.486 28.5 11737.061
+}
+SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ coords 4935.847 28.775 11763.397
  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
   Name "HQ"
   Description "HQ"
   Icon "{BE63BEA2A547D44D}UI/Textures/GPSMarkers/blufor_ImageSet.imageset"
   IconSetName "hq"
  }
-}
-IA_ReplicationWorkaround : "{1C5F0CA68E666359}Components/Replication_Workaround.et" {
- coords 4829.486 28.5 11737.061
+ m_fSpawnPositionUsageRange 10
 }
 IA_MissionInitializer : "{C03DC6A4928E4E77}Components/Mission_Initializer.et" {
  coords 4828.903 28.5 11735.593
