@@ -19,3 +19,9 @@ Required dependencies:
 - T-72 Main Battle Tank (https://reforger.armaplatform.com/workshop/5E0AB16BEB16D6A4-T-72MainBattleTank)
   - https://reforger.armaplatform.com/workshop/5E389BB9F58B79A6-SpaceCore
   - https://reforger.armaplatform.com/workshop/629B2BA37EFFD577-WCS_Armaments
+- WCS AH-64D (https://reforger.armaplatform.com/workshop/6303360DA719E832-WCS_AH-64D)
+  - https://reforger.armaplatform.com/workshop/62CCD69DD17E4F2F-AKI_Core
+  - https://reforger.armaplatform.com/workshop/629B2BA37EFFD577-WCS_Armaments
+- WCS_AH-6M (https://reforger.armaplatform.com/workshop/6273146ADFE8241D-WCS_AH-6M)
+  - https://reforger.armaplatform.com/workshop/62CCD69DD17E4F2F-AKI_Core
+  - https://reforger.armaplatform.com/workshop/629B2BA37EFFD577-WCS_Armaments
